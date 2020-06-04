@@ -16,6 +16,10 @@ services:
         arguments: ['@zitec.js_data.data_collector', '@event_dispatcher']
         public: true
 
+    Zitec\JSDataBundle\Service\DataHandler:
+        alias: zitec.js_data.data_handler
+        public: true
+
 #    # Service which offers the functionality of the data handler service in Twig.
     zitec.js_data.twig.js_data_extension:
         class: Zitec\JSDataBundle\Twig\JSDataExtension
