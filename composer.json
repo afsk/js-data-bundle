@@ -3,7 +3,7 @@
     "description": "This bundle transports pieces of information from PHP to JS.",
     "homepage": "https://www.zitec.com",
     "license": "MIT",
-    "type": "library",
+    "type": "symfony-bundle",
     "require": {
         "ext-json": "*",
         "php": ">=7.4.0",
