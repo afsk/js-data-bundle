@@ -1,0 +1,43 @@
+{
+    "name": "zitec/js-data-bundle",
+    "description": "This bundle transports pieces of information from PHP to JS.",
+    "homepage": "https://www.zitec.com",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "ext-json": "*",
+        "php": ">=7.4.0",
+        "symfony/http-kernel": "^4.4",
+        "symfony/property-access": "^4.4",
+        "symfony/dependency-injection": "^4.4",
+        "symfony/config": "^4.4",
+        "symfony/event-dispatcher": "^4.4",
+        "twig/twig": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.1"
+    },
+    "authors": [
+        {
+            "name": "Ionut BRETA"
+        },
+        {
+            "name": "Cosmin MARIN"
+        },
+        {
+            "name": "Alex MIREA"
+        }
+    ],
+    "config": {
+        "discard-changes": true,
+        "platform": {
+            "php": "7.4.0"
+        }
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Zitec\\JSDataBundle\\": ""
+        }
+    }
+}
