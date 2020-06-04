@@ -47,7 +47,7 @@ collector transports pieces of information from PHP to JS.
 Represents an event which is triggered when data is demanded for the first time from the data handler service. Other bundles can listen to it in
 order to alter the JS data set.
 
-###DataHandler
+### DataHandler
 A service which handles the data sent to the client's scripts. Bundles throughout the application may use this service to add their own or
 alter the information from the JS data set.
 
