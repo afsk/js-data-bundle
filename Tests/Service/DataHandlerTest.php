@@ -4,8 +4,8 @@ namespace Zitec\JSDataBundle\Tests\Service;
 
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
-use Zitec\JSDataBundle\DataCollector\DataCollectorInterface;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
+use Zitec\JSDataBundle\DataCollector\DataCollectorInterface;
 use Zitec\JSDataBundle\Service\DataHandler;
 
 class DataHandlerTest extends TestCase
