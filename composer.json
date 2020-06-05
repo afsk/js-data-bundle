@@ -7,11 +7,11 @@
     "require": {
         "ext-json": "*",
         "php": ">=7.4.0",
-        "symfony/http-kernel": "^4.4",
-        "symfony/property-access": "^4.4",
-        "symfony/dependency-injection": "^4.4",
-        "symfony/config": "^4.4",
-        "symfony/event-dispatcher": "^4.4",
+        "symfony/http-kernel": "^4.4 || ^5.0",
+        "symfony/property-access": "^4.4 || ^5.0",
+        "symfony/dependency-injection": "^4.4 || ^5.0",
+        "symfony/config": "^4.4 || ^5.0",
+        "symfony/event-dispatcher": "^4.4 || ^5.0",
         "twig/twig": "^3.0"
     },
     "require-dev": {
